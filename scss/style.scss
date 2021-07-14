@@ -1,0 +1,143 @@
+@charset "utf-8";
+   
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight:400;
+    color:#333;
+}
+
+ul{
+    list-style:none;
+}
+
+button{
+    overflow:visible;
+    text-transform:none;
+    -webkit-appearance:button;
+    border:0;
+    background:0;
+    cursor:pointer;
+    font-family:"Noto Sans KR", sans-serif;
+}
+
+.lotto-wrap{
+    width:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background:#f3f3f3;
+    transform:translate(-50%,-50%)
+}
+
+.header{
+    padding:23px 0;
+    font-size:30px;
+    color:#fff;
+    background:#0071c8;
+    text-align:center;
+}
+
+.info{
+    padding:0 60px;
+    .top{
+        padding:35px 0 25px;
+        font-size:30px;
+        font-weight:500;
+        text-align:center;
+    }
+    ul{
+        li{
+            &+li{
+                margin-top:2px;
+            }
+        }
+    }
+}
+
+.num{
+    margin:25px 35px 30px;
+    padding:22px 25px;
+    background:#fff;
+    border-radius:15px;
+    box-shadow:#eee 3px 3px 3px;
+    ul{
+        li{
+            display:flex;
+            &:after{
+                content:'';
+                display:block;
+                clear:both;
+            }            
+            &+li{
+                margin-top:15px;
+            }
+            .tit{
+                flex:1;
+                margin-top:8px;
+            }
+            .choice{
+                flex:4;
+                span{
+                    display:inline-block;
+                    width:40px;
+                    height:40px;
+                    color:#333;
+                    text-align:center;
+                    line-height:39px;
+                    border-radius:50%;
+                    border:1px solid #333;
+                    &+span{
+                        margin-left:23px;
+                    }
+                    &[class^=ball]{
+                        color:#fff;
+                        border:0;
+                    }
+                    &.ball1{
+                        background-color:#f8b551;
+                    }
+                    &.ball2{
+                        background-color:#448aca;
+                    }
+                    &.ball3{
+                        background-color:#eb6877;
+                    }
+                    &.ball4{
+                        background-color:#a0a0a0;
+                    }
+                    &.ball5{
+                        background-color:#80c269;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.btn{
+    padding-bottom:35px;
+    text-align:center;
+    button{
+        margin-left:4px;
+        padding:10px 35px;
+        font-size:16px;
+        color:#fff;
+        background:#8e8e8e;
+    }
+    select{
+        width:60px;
+        height:44px;
+        padding-left:5px;
+        vertical-align:top;
+        border-color:#dedede;
+    }
+}
