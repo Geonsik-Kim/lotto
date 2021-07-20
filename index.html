@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lotto 번호 자동 생성</title>
     <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
     <div class="lotto-wrap">
@@ -13,29 +14,19 @@
         <div class="info">
             <div class="top">제 <span>777</span> 회</div>
             <ul>
-                <li class="date1"><span class="tit">발행일 : </span><span class="date"></span></li>
-                <li class="date2"><span class="tit">추첨일 : </span><span class="date"></span></li>
-                <li class="date3"><span class="tit">지급기한 : </span><span class="date"></span></li>
+                <li><span class="tit">발행일 : </span><span class="date">2020/10/21 (금) 14:22:42</span></li>
+                <li><span class="tit">추첨일 : </span><span class="date">2020/10/22 (토)</span></li>
+                <li><span class="tit">지급기한 : </span><span class="date">2021/10/22</span></li>
             </ul>
         </div>
         <div class="num">
             <ul>
-                <li>
-                    <div class="tit"><span>A</span> 자동</div>
-                    <div class="choice">
-                        <span>?</span>
-                        <span>?</span>
-                        <span>?</span>
-                        <span>?</span>
-                        <span>?</span>
-                        <span>?</span>
-                    </div>
-                </li>
+                <li><div class="tit"><span>A</span> 자동</div><div class="choice"><span class="ball1">1</span><span class="ball1">7</span><span class="ball2">14</span><span class="ball3">26</span><span class="ball4">32</span><span class="ball5">45</span></div></li>
+                <li><div class="tit"><span>A</span> 자동</div><div class="choice"><span>?</span><span>?</span><span>?</span><span>?</span><span>?</span><span>?</span></div></li>
             </ul>
         </div>
         <div class="btn">
-            <select name="countSelect" id="countSelect">
-                <option value="">선택</option>
+            <select name="countSelect" id="">
                 <option value="1">1장</option>
                 <option value="2">2장</option>
                 <option value="3">3장</option>
@@ -46,7 +37,6 @@
         </div>
         <div class="apple"></div>
     </div>
-
     <script src="./js/index.js"></script>
 </body>
 </html>
