@@ -27,4 +27,4 @@ lotto 번호를 자동으로 생성해줍니다.
 * NodeList <a href="https://kim-geonsik.notion.site/NodeList-af6598fe76504342951770fb595e236a">[바로가기]</a>
 
 ## 링크
-* <a href="https://rjstlr94.ivyro.net/project/lotto/index.html">[완성 페이지 확인하기]</a>
+* [[완성 페이지 바로가기]](https://geonsik-kim.github.io/lotto/)
